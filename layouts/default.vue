@@ -1,21 +1,19 @@
 <script setup>
 useHead({
-  title: 'Tailus boilerplate',
+  title: "Tailus boilerplate",
   // or, instead:
   // titleTemplate: (title) => `My App - ${title}`,
-  viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
-  charset: 'utf-8',
-  meta: [
-    { name: 'description', content: 'Tailus Nuxt 3 starter project' }
-  ],
+  viewport: "width=device-width, initial-scale=1, maximum-scale=1",
+  charset: "utf-8",
+  meta: [{ name: "description", content: "Tailus Nuxt 3 starter project" }],
   link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.svg' },
-      {
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&amp;display=swap'
-      }
-  ]
-})
+    { rel: "icon", type: "image/x-icon", href: "/favicon.svg" },
+    {
+      rel: "stylesheet",
+      href: "https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&amp;display=swap",
+    },
+  ],
+});
 </script>
 
 <template>
@@ -62,10 +60,10 @@ useHead({
         </a>
       </header>
       <slot />
-      <div aria-hidden="true" class="fixed h-20 inset-x-0 w-full bottom-0 bg-gradient-to-r from-primary to-purple-600 blur-[8rem]">
-        
-      </div>
+      <div
+        aria-hidden="true"
+        class="fixed inset-x-0 bottom-0 h-20 w-full bg-gradient-to-r from-primary to-purple-600 blur-[8rem]"
+      ></div>
     </div>
-
   </div>
 </template>

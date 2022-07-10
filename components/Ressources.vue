@@ -126,7 +126,7 @@
     <div class="mt-8 grid gap-8 sm:grid-cols-2">
       <a
         href="https://www.youtube.com/c/Tailus-ui/"
-        class="relative mx-auto flex w-full px-6 py-4 before:absolute before:inset-0 before:rounded-2xl before:border before:border-gray-200 before:bg-gray-50 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 before:bg-opacity-60 dark:before:bg-opacity-60 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800"
+        class="relative mx-auto flex w-full px-6 py-4 before:absolute before:inset-0 before:rounded-2xl before:border before:border-gray-200 before:bg-gray-50 before:bg-opacity-60 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800 dark:before:bg-opacity-60"
       >
         <div class="relative flex items-center justify-center gap-4">
           <img
@@ -149,7 +149,7 @@
       </a>
       <a
         href="https://github.com/Tailus-UI"
-        class="relative mx-auto flex w-full px-6 py-4 before:absolute before:inset-0 before:rounded-2xl before:border before:border-gray-200 before:bg-gray-50 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 before:bg-opacity-60 dark:before:bg-opacity-60 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800"
+        class="relative mx-auto flex w-full px-6 py-4 before:absolute before:inset-0 before:rounded-2xl before:border before:border-gray-200 before:bg-gray-50 before:bg-opacity-60 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800 dark:before:bg-opacity-60"
       >
         <div class="relative flex items-center justify-center gap-4">
           <img

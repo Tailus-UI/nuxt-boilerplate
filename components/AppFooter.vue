@@ -1,7 +1,5 @@
 <template>
-  <footer
-    class="relative pb-6"
-  >
+  <footer class="relative pb-6">
     <div
       class="relative mx-auto mt-32 flex max-w-3xl flex-col items-start justify-center px-6 sm:px-12 lg:px-0"
     >

@@ -25,6 +25,12 @@ Start the development server on http://localhost:3000
 npm run dev
 ```
 
+Sort classes with prettier
+
+```bash
+npx prettier -w .
+```
+
 ## Production
 
 Build the application for production:
